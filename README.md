@@ -6,9 +6,9 @@
 * Analyze memory access patterns and examine how programs use memory.
 
 ### Programs included: ###
+**Makefile:** use `make` to compile sample test programs, use `make traces` to generate trace files  
 **refstring.py:** used to filter output of Valgrind memory reference trace  
-**heaploop.c, matmul.c:** sample programs used in the trace
-
+**heaploop.c, matmul.c:** sample programs used for tracing  
 **analyze.py:**
 * translates each memory reference into a page number assuming pages are 4096 bytes
 * outputs a table of
